@@ -1,4 +1,6 @@
 import React, { useRef, useState } from "react";
+import { PiGreaterThanLight } from "react-icons/pi";
+import { PiLessThan } from "react-icons/pi";
 
 import Timer from "./Timer";
 import Volume from "./Volume";
@@ -78,16 +80,23 @@ const MainBar = () => {
       </div>
       {/* overlay text */}
       <div className="absolute bottom-[52%] left-[25%]">
-        <p className=" text-white bg-gray-600 opacity-70 px-4">
-          Am ambitious abou what motivats me in my tech career
+        <p className=" text-white bg-gray-600 opacity-70 px-4 py-1">
+          Am ambitious person which motivats me in my professional career.
         </p>
+      </div>
+      <div className="absolute rotate-[125deg] transition-transform duration-300 right-[30%] bottom-[51%] ">
+        <div className="flex ">
+          <PiLessThan size={10} color="gray"  />
+          <PiGreaterThanLight size={10} color="gray" />
+          
+        </div>
       </div>
       {/* Timer */}
       <div className="absolute bottom-[48%] left-10">
         <Timer />
       </div>
       {/* Volume regulator */}
-      <div className="absolute right-[30%] bottom-[50%]">
+      <div className="absolute right-[32%] bottom-[50%]">
         <Volume />
       </div>
       {/* bottom */}

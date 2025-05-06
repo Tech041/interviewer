@@ -14,11 +14,15 @@ const Score = () => {
       <h3 className="font-bold text-base text-gray-700 px-4">
         A video score summary
       </h3>
-      <p className="pl-4 text-gray-500">
-        The presentation of talent is <span className="font-bold text-gray-500">good.</span>
+      <p className="pl-4 text-gray-500 pb-3">
+        The presentation of talent is{" "}
+        <span className="font-bold text-gray-500">good.</span>
         Check the breakdown summary of AI video score.
       </p>
-      <div className="flex  justify-center items-center gap-3 px-4">
+      <div className="flex  justify-center items-center">
+        <hr className=" border w-[80%]" />
+      </div>
+      <div className="flex  justify-center items-center gap-3 px-4 pt-3">
         <ScoreButton
           icon={<IoMdCheckmark />}
           text={"Shortlist"}
@@ -32,7 +36,7 @@ const Score = () => {
           className1={"font-semibold hover:text-red-600"}
         />
       </div>
-      <div className="py-3 px-4 pt-12 ">
+      <div className="pb-3 px-4 pt-6">
         <HireButton text={"Hire Talent"} />
       </div>
     </div>
