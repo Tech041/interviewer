@@ -12,7 +12,7 @@ const Score = () => {
       </p>
       <h1 className="p-4 font-semibold text-4xl">85%</h1>
       <h3 className="font-bold text-base text-gray-700 px-4">
-        A video score summary
+        AI video score summary
       </h3>
       <p className="pl-4 text-gray-500 pb-3">
         The presentation of talent is{" "}

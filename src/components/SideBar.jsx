@@ -2,7 +2,7 @@ import React from "react";
 import { IoVideocamOutline } from "react-icons/io5";
 import InputForm from "./InputForm";
 import ChatBody from "./ChatBody";
-const chatMenu = ["Record", "Chat", "Note", "Docs"];
+const chatMenu = ["Record", "Chat", "Notes", "Docs"];
 const SideBar = () => {
   return (
     <div className="w-full h-full flex justify-center items-center pl-3  rounded-l-3xl overflow-hidden relative bg-gray-300">

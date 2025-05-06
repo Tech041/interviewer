@@ -80,15 +80,15 @@ const MainBar = () => {
       </div>
       {/* overlay text */}
       <div className="absolute bottom-[52%] left-[25%]">
-        <p className=" text-white bg-gray-600 opacity-70 px-4 py-1">
-          Am ambitious person which motivats me in my professional career.
+        <p className=" text-white bg-gray-600 opacity-50 px-4 py-1">
+          I&apos;m extremely ambitious person which motivates me in my
+          professional career.
         </p>
       </div>
       <div className="absolute rotate-[125deg] transition-transform duration-300 right-[30%] bottom-[51%] ">
         <div className="flex ">
-          <PiLessThan size={10} color="gray"  />
+          <PiLessThan size={10} color="gray" />
           <PiGreaterThanLight size={10} color="gray" />
-          
         </div>
       </div>
       {/* Timer */}
