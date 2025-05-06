@@ -12,7 +12,7 @@ const QuestionList = () => {
   return (
     <div className="border rounded-xl bg-white h-full w-full">
       <div className="">
-        <p className="flex justify-end pr-4">
+        <p className="flex justify-end pr-4 pt-4">
           <MdErrorOutline size={20} color="green" />
         </p>
         <h3 className="px-4 py-3 font-semibold">Question List</h3>
