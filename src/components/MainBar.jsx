@@ -119,19 +119,21 @@ const MainBar = () => {
         </div>
         <div className=" absolute left-[28px] top-[34%] h-[30px] w-[2px] bg-green-500 rounded-full" />
 
-        <div className=" absolute left-[28px] top-[51%]">
-          <div className=" h-[10px] w-[2px] bg-gray-300 rounded-full" />
-          <div className=" h-[10px] w-[2px] bg-gray-300 rounded-full" />
-          <div className=" h-[10px] w-[2px] bg-gray-300 rounded-full" />
-          <div className=" h-[10px] w-[2px] bg-gray-300 rounded-full" />
+        <div className=" absolute my-[0.5px] left-[28px] top-[51%]">
+          <div className=" h-[10px] w-[2px]  bg-gray-300 rounded-full" />
+          <div className=" h-[10px] w-[2px] my-[1px] bg-gray-300 rounded-full" />
+          <div className=" h-[4px] w-[2px] my-[1px] bg-gray-300 rounded-full" />
+
+          <div className=" h-[10px] w-[2px]  bg-gray-300 rounded-full" />
         </div>
-        <div className=" absolute left-[28px] top-[70%]">
-          <div className=" h-[10px] w-[2px] bg-gray-300 rounded-full" />
-          <div className=" h-[10px] w-[2px] bg-gray-300 rounded-full" />
-          <div className=" h-[10px] w-[2px] bg-gray-300 rounded-full" />
+        <div className=" absolute my-[1px] left-[28px] top-[70%]">
+          <div className=" h-[5px] w-[2px]  my-[1px] bg-gray-300 rounded-full" />
+          <div className=" h-[10px] w-[2px]  bg-gray-300 rounded-full" />
+
+          <div className=" h-[10px] my-[1px] w-[2px]  bg-gray-300 rounded-full" />
         </div>
-        <div className=" absolute left-[28px] top-[86%]">
-          <div className=" h-[10px] w-[2px] bg-gray-300 rounded-full" />
+        <div className=" absolute my-[1px] left-[28px] top-[86%]">
+          <div className=" h-[6px] w-[2px] my-[1px] bg-gray-300 rounded-full" />
           <div className=" h-[10px] w-[2px] bg-gray-300 rounded-full" />
         </div>
       </div>
