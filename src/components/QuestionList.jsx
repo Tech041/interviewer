@@ -23,7 +23,7 @@ const QuestionList = () => {
           {data.map((item, index) => (
             <div key={index} className="flex items-center space-x-4">
               <div
-                className={`text-sm ${
+                className={`text-sm py-1 ${
                   item.num <= 2
                     ? "bg-green-600"
                     : "bg-white border border-gray-400"

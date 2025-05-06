@@ -91,6 +91,7 @@ const MainBar = () => {
           <PiGreaterThanLight size={10} color="gray" />
         </div>
       </div>
+
       {/* Timer */}
       <div className="absolute bottom-[48%] left-10">
         <Timer />
@@ -100,7 +101,7 @@ const MainBar = () => {
         <Volume />
       </div>
       {/* bottom */}
-      <div className=" h-[45%] flex items-center gap-3 ">
+      <div className=" h-[45%] flex items-center gap-3  relative">
         {/* bottom */}
         <div className="w-[30%] h-full ">
           {/* card */}
@@ -115,6 +116,23 @@ const MainBar = () => {
             {/* score details */}
             <ScoreDetails />
           </div>
+        </div>
+        <div className=" absolute left-[28px] top-[34%] h-[30px] w-[2px] bg-green-500 rounded-full" />
+
+        <div className=" absolute left-[28px] top-[51%]">
+          <div className=" h-[10px] w-[2px] bg-gray-300 rounded-full" />
+          <div className=" h-[10px] w-[2px] bg-gray-300 rounded-full" />
+          <div className=" h-[10px] w-[2px] bg-gray-300 rounded-full" />
+          <div className=" h-[10px] w-[2px] bg-gray-300 rounded-full" />
+        </div>
+        <div className=" absolute left-[28px] top-[70%]">
+          <div className=" h-[10px] w-[2px] bg-gray-300 rounded-full" />
+          <div className=" h-[10px] w-[2px] bg-gray-300 rounded-full" />
+          <div className=" h-[10px] w-[2px] bg-gray-300 rounded-full" />
+        </div>
+        <div className=" absolute left-[28px] top-[86%]">
+          <div className=" h-[10px] w-[2px] bg-gray-300 rounded-full" />
+          <div className=" h-[10px] w-[2px] bg-gray-300 rounded-full" />
         </div>
       </div>
     </div>
