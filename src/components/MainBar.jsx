@@ -74,7 +74,7 @@ const MainBar = () => {
         </div>
       </div>
       {/* overlay text */}
-      <div className="absolute bottom-[52%] left-[25%]">
+      <div className="absolute bottom-[52%] left-[18%]">
         <p className=" text-white bg-gray-600 opacity-50 px-4 py-1">
           I&apos;m extremely ambitious person which motivates me in my
           professional career.
@@ -112,20 +112,20 @@ const MainBar = () => {
             <ScoreDetails />
           </div>
         </div>
-        <div className=" absolute left-[28px] top-[34%] h-[30px] w-[2px] bg-green-500 rounded-full" />
+        <div className=" absolute left-[28px] top-[30%] h-[30px] w-[2px] bg-green-500 rounded-full" />
 
-        <div className=" absolute my-[0.5px] left-[28px] top-[51%]">
+        <div className=" absolute my-[0.5px] left-[28px] top-[47%]">
           <div className=" h-[10px] w-[2px]  bg-gray-300 rounded-full" />
           <div className=" h-[10px] w-[2px] my-[1px] bg-gray-300 rounded-full" />
           <div className=" h-[4px] w-[2px] my-[1px] bg-gray-300 rounded-full" />
           <div className=" h-[10px] w-[2px]  bg-gray-300 rounded-full" />
         </div>
-        <div className=" absolute my-[1px] left-[28px] top-[70%]">
+        <div className=" absolute my-[1px] left-[28px] top-[67%]">
           <div className=" h-[5px] w-[2px]  my-[1px] bg-gray-300 rounded-full" />
           <div className=" h-[10px] w-[2px]  bg-gray-300 rounded-full" />
           <div className=" h-[10px] my-[1px] w-[2px]  bg-gray-300 rounded-full" />
         </div>
-        <div className=" absolute my-[1px] left-[28px] top-[86%]">
+        <div className=" absolute my-[1px] left-[28px] top-[83%]">
           <div className=" h-[6px] w-[2px] my-[1px] bg-gray-300 rounded-full" />
           <div className=" h-[10px] w-[2px] bg-gray-300 rounded-full" />
         </div>

@@ -15,7 +15,7 @@ const QuestionList = () => {
         <p className="flex justify-end pr-4 pt-4">
           <MdErrorOutline size={20} color="green" />
         </p>
-        <h3 className="px-4 py-3 font-semibold">Question List</h3>
+        <h3 className="px-4 pb-3 font-semibold">Question List</h3>
       </div>
       {/* text and numbering */}
       <div className="flex  items-center px-4">

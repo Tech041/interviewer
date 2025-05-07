@@ -59,7 +59,7 @@ const SideBar = () => {
           </div>
           {/* input */}
           <div className=" h-[15%]">
-            <div className="">
+            <div className="w-full px-3">
               <InputForm />
             </div>
           </div>
