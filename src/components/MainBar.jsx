@@ -7,6 +7,7 @@ import Volume from "./Volume";
 import Score from "./Score";
 import ScoreDetails from "./ScoreDetails";
 import QuestionList from "./QuestionList";
+import PlayVideo from "./PlayVideo";
 
 const MainBar = () => {
   const videoRef = useRef(null);
@@ -58,13 +59,7 @@ const MainBar = () => {
           </div>
         </div>
         {/* interviewer */}
-        <div className="w-[150px] h-[150px] rounded-lg absolute top-2 right-12 overflow-hidden flex justify-center items-center">
-          <img
-            src="/ai_interviewer.jpeg"
-            alt=""
-            className=" w-full h-full object-cover"
-          />
-        </div>
+        <PlayVideo />
         {/* candidate */}
         <div className="w-[50px] h-[50px] rounded-lg absolute top-2 left-12 border overflow-hidden flex justify-center items-center">
           <img
@@ -123,13 +118,11 @@ const MainBar = () => {
           <div className=" h-[10px] w-[2px]  bg-gray-300 rounded-full" />
           <div className=" h-[10px] w-[2px] my-[1px] bg-gray-300 rounded-full" />
           <div className=" h-[4px] w-[2px] my-[1px] bg-gray-300 rounded-full" />
-
           <div className=" h-[10px] w-[2px]  bg-gray-300 rounded-full" />
         </div>
         <div className=" absolute my-[1px] left-[28px] top-[70%]">
           <div className=" h-[5px] w-[2px]  my-[1px] bg-gray-300 rounded-full" />
           <div className=" h-[10px] w-[2px]  bg-gray-300 rounded-full" />
-
           <div className=" h-[10px] my-[1px] w-[2px]  bg-gray-300 rounded-full" />
         </div>
         <div className=" absolute my-[1px] left-[28px] top-[86%]">
