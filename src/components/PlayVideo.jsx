@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import YouTube from "react-youtube";
 
 const PlayVideo = () => {
   const [isPlaying, setIsPlaying] = useState(false);
+  const videoUrl = "https://youtu.be/CBWnBi-awSA";
 
   const handleClick = () => {
     setIsPlaying(true);
@@ -20,15 +22,10 @@ const PlayVideo = () => {
       onClick={handleClick}
     >
       {isPlaying ? (
-        <video
-          className="w-full h-full object-cover"
-          controls
-          autoPlay
-          playsInline
-        >
-          <source src="https://youtu.be/CBWnBi-awSA" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        <YouTube
+          videoId={videoUrl.split("/").pop()}
+          iframeClassName="w-full aspect-video"
+        />
       ) : (
         <img
           src="/ai_interviewer.jpeg"
