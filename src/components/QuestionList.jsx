@@ -31,7 +31,9 @@ const QuestionList = () => {
               >
                 <span
                   className={`${
-                    item.num <= 2 ? "text-white" : "text-gray-500"
+                    item.num <= 2
+                      ? "text-white font-bold"
+                      : "text-black font-bold"
                   }`}
                 >
                   {item.num}
@@ -39,7 +41,7 @@ const QuestionList = () => {
               </div>
               <div
                 className={`" ${
-                  index === data.length - 1 ? "text-gray-400" : "text-black"
+                  index === data.length - 1 ? "text-gray-400" : "text-black font-semibold"
                 }`}
               >
                 {item.text}
