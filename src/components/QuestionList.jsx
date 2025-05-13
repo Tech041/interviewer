@@ -1,5 +1,6 @@
 import React from "react";
 import { MdErrorOutline } from "react-icons/md";
+import NumberingLinkage from "./NumberingLinkage";
 const data = [
   { num: 1, text: "Tell us about yourself?" },
   { num: 2, text: "Why do you think you are good at sales?" },
@@ -10,7 +11,7 @@ const data = [
 
 const QuestionList = () => {
   return (
-    <div className="border rounded-xl bg-white h-full w-full">
+    <div className="border rounded-xl bg-white h-full w-full relative">
       <div className="">
         <p className="flex justify-end pr-4 pt-4">
           <MdErrorOutline size={20} color="green" />
@@ -33,7 +34,7 @@ const QuestionList = () => {
                   className={`${
                     item.num <= 2
                       ? "text-white font-bold"
-                      : "text-black font-bold"
+                      :  "text-black font-bold"
                   }`}
                 >
                   {item.num}
@@ -50,6 +51,7 @@ const QuestionList = () => {
           ))}
         </div>
       </div>
+      <NumberingLinkage/>
     </div>
   );
 };

@@ -5,7 +5,7 @@ import ChatBody from "./ChatBody";
 const chatMenu = ["Record", "Chat", "Notes", "Docs"];
 const SideBar = () => {
   return (
-    <div className="w-full h-full flex justify-center items-center pl-3  rounded-l-3xl overflow-hidden relative bg-gray-300">
+    <div className="w-full h-full hidden lg:flex justify-center items-center pl-3  rounded-l-3xl overflow-hidden relative bg-gray-300">
       <div className="w-full h-[98%] ">
         {/* top */}
         <div className="h-[20%] w-full flex flex-col  items-center justify-center bg-white pl-10   rounded-tl-2xl  pt-8">

@@ -7,13 +7,6 @@ const PlayVideo = () => {
 
   const handleClick = () => {
     setIsPlaying(true);
-    setTimeout(() => {
-      const videoElement = document.querySelector("video");
-      if (videoElement) {
-        videoElement.muted = false; // Ensures sound plays
-        videoElement.play(); // Forces playback
-      }
-    }, 100); // Delay helps browsers properly initiate playback
   };
 
   return (
